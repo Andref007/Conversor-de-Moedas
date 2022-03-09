@@ -54,3 +54,18 @@ var valorConvertido = "O resultado em real é R$ " + valorEmReal
 elementoValorConvertido.innerHTML = valorConvertido
 } 
 
+function ConverterLibra() {
+  var valorElemento = document.getElementById("valor5")
+  var valor = valorElemento.value
+  var valorEmIeneNumerico = parseFloat(valor)
+
+
+  var valorEmReal = valorEmIeneNumerico * 6.59
+  
+
+  var elementoValorConvertido = document.getElementById("valorConvertido5")
+var valorConvertido = "O resultado em real é R$ " + valorEmReal
+elementoValorConvertido.innerHTML = valorConvertido
+} 
+
+
